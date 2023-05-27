@@ -1,2 +1,2 @@
 # nanopore_structural_variants
-Calling read- and assembly-based structural variants from long read nanopore data
+Repository for scripts related to processing of long-read nanopore data, quality control, genome assembly, and variant calling
