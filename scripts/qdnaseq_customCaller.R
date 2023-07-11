@@ -1,5 +1,13 @@
 
 ## QDNASEq Custom Script 07/06/2023
+#install.packages("BiocManager")
+#BiocManager::install("QDNAseq")
+library("QDNAseq")
+#remotes::install_github("asntech/QDNAseq.hg38@main")
+library(QDNAseq.hg38)
+#install.packages("ggplot2")
+library(ggplot2)
+
 
 #############################
 ## Import BAM file ##########
