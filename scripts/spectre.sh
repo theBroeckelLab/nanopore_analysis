@@ -7,7 +7,7 @@ mkdir mosdepth
 cd mosdepth/
 ##need to activate the mosdepth conda enviroment
 conda activate mosdepth
-mosdepth -n -t 4 --fastmode --by 1000 samplename_mosdepth sample.sorted.bam
+mosdepth -n -t 4 -x --by 1000 samplename_mosdepth sample.sorted.bam
 conda deactivate
 ##Run spectre tool
 ##If rerunning sample makesure to delete spectre output file or it will crash
