@@ -6,7 +6,7 @@ cd cnv/
 mkdir mosdepth
 cd mosdepth/
 ##need to activate the mosdepth conda enviroment
-conda activate mosdpeth
+conda activate mosdepth
 mosdepth -n -t 4 --fastmode --by 1000 samplename_mosdepth sample.sorted.bam
 conda deactivate
 ##Run spectre tool
