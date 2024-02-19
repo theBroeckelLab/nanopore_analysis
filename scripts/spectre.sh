@@ -13,5 +13,5 @@ conda deactivate
 ##If rerunning sample makesure to delete spectre output file or it will crash
 ##match bin sizes between mosdepth and spectre but that number can be changed
 conda activate spectre
-spectre.py CNVCaller \ --bin-size 1000 \ --coverage mosdepth/ \ --sample-id sampleid \ --output-dir Spectre_results/ \ --reference /data/ref/NCBI/GRCh38/Homo_sapiens_assembly38_noALT_noHLA_noDecoy_ERCC.fasta
+spectre.py CNVCaller  --bin-size 1000  --coverage mosdepth/  --sample-id sampleid --output-dir Spectre_results/  --reference /data/ref/NCBI/GRCh38/Homo_sapiens_assembly38_noALT_noHLA_noDecoy_ERCC.fasta
 conda deactivate spectre
