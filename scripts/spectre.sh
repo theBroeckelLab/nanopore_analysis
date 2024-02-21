@@ -9,6 +9,7 @@ cd mosdepth/
 conda activate mosdepth
 mosdepth -n -t 4 -x --by 1000 samplename_mosdepth sample.sorted.bam
 conda deactivate
+cd ..
 ##Run spectre tool
 ##If rerunning sample makesure to delete spectre output file or it will crash
 ##match bin sizes between mosdepth and spectre but that number can be changed
